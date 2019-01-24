@@ -1,5 +1,5 @@
 <template>
-     <ins class="adsbygoogle"
+    <ins class="adsbygoogle"
          :style="adStyle"
          :data-ad-client="adClient"
          :data-ad-format="adFormat"
@@ -38,7 +38,7 @@ export default {
     },
 
     mounted() {
-        console.log("Mounted");
+        (adsbygoogle = window.adsbygoogle || []).push({});
     }
 
 }

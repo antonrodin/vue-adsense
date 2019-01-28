@@ -1,7 +1,12 @@
 # Componente Adsense para Vue.js
 
 Componente básico para insertar anuncios adsense dentro de una app
-que utilice Vue.js. Primero añade esto dentro de tu index.html, entre las etiquetas __<head>__ o al final de __<body>__, pero fuera de tu #app...
+que utilice Vue.js. Es código fuente producto de este video: https://www.youtube.com/watch?v=B3WSSDS2804, es decir 
+__la idea que te hagas TU, tu propio componente__.
+
+Existen al menos dos paquetes NPM populares que son basicamente lo mismo (usa google). Sin embargo, __no recomiendo añadir dependendcias externas que son 10 lineas de código__, creo que es evidente...
+
+Primero añade esto dentro de tu index.html, entre las etiquetas __<head>__ o al final de __<body>__, pero fuera de tu #app...
 
 ```html
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
